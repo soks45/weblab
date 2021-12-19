@@ -1,7 +1,7 @@
 <?
 require('ChangeThemeButton.html');
 require('buttons.html');
-require('StuNDdentList.html');
+require('StudentList.html');
 require('UNDERGROUND.html');
 require('FloppaAnimation.html');
 ?>
