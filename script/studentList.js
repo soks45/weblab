@@ -88,11 +88,6 @@ tasksListElement2.addEventListener(`dragover`, (evt) => {
 	tasksListElement2.insertBefore(activeElement, nextElement);
 });
 
-let scrollUpElement = document.querySelector('.reference');
-scrollUpElement.addEventListener(onscroll, (evt) => {
-  evt.target.display = flex;
-});
-
 let button1 = document.getElementById('button1');
 let button2 = document.getElementById('button2');
 let button3 = document.getElementById('button3');
