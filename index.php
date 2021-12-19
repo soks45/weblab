@@ -1,5 +1,4 @@
 <?
-require('superlanding.html');
 require('ChangeThemeButton.html');
 require('buttons.html');
 require('StudentList.html');
