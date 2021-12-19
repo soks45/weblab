@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Список студентов группы 609-91</title>
+        <link rel="stylesheet" href="landing.css">   
+    </head>
+    
+ 
+    <body>      
+        <div class="STUDENTSLIST" name="StudentList">
+            <div class="header1">
+                Список студентов группы 609-91
+            </div>
+            <div class="grid">
+
+                <div class="LEFTCOLUMN GROUPSTYLE">
+                    <h1 class="tasks__title">1-я группа</h1>                    
+                    <ul id="Group1" class="tasks__list">
+                        <li class="tasks__item" draggable="true">Будай Владислав</li>
+                        <li class="tasks__item" draggable="true">Джетписов Кирилл</li>
+                        <li class="tasks__item" draggable="true">Керимов Камиль</li>
+                        <li class="tasks__item" draggable="true">Кривоногов Александр</li>
+                        <li class="tasks__item" draggable="true">Курбанов Ринат</li>
+                        <li class="tasks__item" draggable="true">Сивирин Дмитрий</li>
+                        <li class="tasks__item" draggable="true">Усаров Рустам</li>
+                        <li class="tasks__item" draggable="true">Уточкин Кирилл</li>
+                        <li class="tasks__item" draggable="true">Цигвинцев Илья</li>   
+                    </ul>
+
+                </div>
+                <div class="RIGHTCOLUMN GROUPSTYLE"> 
+                    <h1 class="tasks__title">2-я группа</h1>
+                    <ul id="Group2"  class="tasks__list2">
+                        <li class="tasks__item2" draggable="true">Батуев Алексей</li>
+                        <li class="tasks__item2" draggable="true">Березин Евгений</li>
+                        <li class="tasks__item2" draggable="true">Галиев Зариф</li>
+                        <li class="tasks__item2" draggable="true">Злобич Анастасия</li>
+                        <li class="tasks__item2" draggable="true">Король Максимилиан</li>
+                        <li class="tasks__item2" draggable="true">Хабибулин Данил</li>
+                        <li class="tasks__item2" draggable="true">Хитун Иван</li>
+                        <li class="tasks__item2" draggable="true">Цугуй Дмитрий</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="script/script.js"> </script>
+    </body>
+</html>
