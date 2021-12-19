@@ -1,0 +1,337 @@
+body{
+    height: auto;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, #FF8600, #CFD300, white);
+    font-family:'Courier New', Courier, monospace;
+    text-decoration-style: wavy;
+}
+
+.AddStudentForm{
+    background-color: #DAA92C;
+
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.Form1{
+    margin-top: 5px;
+    height: 30px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.inputText{
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 200px; */
+    background-color: #FCB471;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.AddButton{
+    background-color: #FF8600;
+    border-radius: 15px;
+    width: 50px;
+}
+
+.button4{
+    height: 80px;
+    width: 200px;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 20px;
+    background-color: #FF8600;
+}
+
+.RadioSytle1{
+    font-family:monospace;
+    font-weight: 900;
+}
+
+.buttonTEMA{
+    margin-right: auto;
+    width: 170px;
+    height: 90px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #524f4e;
+    background: #a4f018;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.HEADBUTTON{
+    width: 170px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #524f4e;
+    background: #CFD300;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.STUDENTSLIST{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #E8964B;
+}
+
+.canvasStyle{
+    width: 1600px; 
+    height: 500px;
+    margin-left: 160px;
+}
+
+
+.UNDERGROUND{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 125px;
+    border-radius: 30px;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, #FCB471, #F3BF8E);
+
+}
+
+.header1{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 10px;
+    height:max-content;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LEFTCOLUMN{
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.RIGHTCOLUMN{
+    grid-column-start: 7;
+    grid-column-end: 11;
+}
+
+
+.FIRSTCOLUMN{
+    justify-content:center;
+    align-content: center;
+    grid-column-start: 1;
+    /* grid-column-end: 4; */
+}
+
+.SECONDCOLUMN{
+    justify-content:center;
+    align-content: center;
+    grid-column-start: 2;
+    /* grid-column-end: 8; */
+}
+
+.THIRDCOLUMN{
+    justify-content:center;
+    align-content: center;
+    grid-column-start: 3;
+    /* grid-column-end: 12; */
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+}
+
+.SHAPKA{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    margin-top: 160px;
+    border-radius: 30px;
+    background-color: #DAA92C;
+    width: 600px;
+    height: 120px;
+}
+
+.NOMERGRUPPU{
+    display: flex;
+    font-size: 96px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80x;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.KNOPKA{
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #BF7130;
+    width: 240px;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.GROUPSTYLE{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.UNDERGROUNDSTYLE{
+    margin-left: 45px;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    font-size: large;
+    font-size: 24px;
+}
+
+.col1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.col2{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.col3{
+    grid-column-start: 7;
+    grid-column-end: 9;;
+}
+
+.col4{
+    grid-column-start: 10;
+    grid-column-end: 12;
+}
+
+
+
+.tasks__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+  
+.tasks__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.tasks__item {
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    cursor: move;
+    transition: background-color 0.5s;
+}
+  
+.tasks__list2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.tasks__item2 {
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    cursor: move;
+    transition: background-color 0.5s;
+}
+
+.tasks__item:last-child {
+    margin-bottom: 0;
+}
+  
+.selected {
+    opacity: 0.1;
+    color: rgb(180, 165, 30);
+}
+
+.tasks__item2:last-child {
+    margin-bottom: 0;
+}
+  
+.selected2 {
+    opacity: 0.1;
+    color: rgb(180, 165, 30);
+}
+
+.reference{
+    max-width: 100px;
+    height: 100px;
+    display:none; 
+    justify-content: center;
+    align-content: center;
+    border-radius: 20%;
+    margin-left: 90%;
+}
+
+@media(max-width:1000px){
+    .grid{
+        grid-template-columns: 1fr; 
+    }
+    .header{
+        font-size: 48px;
+    }
+    .header2{
+        font-size: 32px;
+    }
+    .list{
+        font-size: 16;
+    }
+}
+
+@media(max-width:500px){
+    .kafedraInfo{
+        font-size: smaller;
+    }
+    .header{
+        font-size:small;
+    }
+    .header2{
+        font-size: small;
+    }
+}
+
+
